@@ -1,0 +1,55 @@
+# ========================
+# Node
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Playwright
+# ========================
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+*.zip
+*.har
+
+/playwright/.cache/
+/playwright/.auth/
+
+# screenshots & videos
+test-results/**/video*
+test-results/**/screenshot*
+
+# ========================
+# IDE (JetBrains / VSCode)
+# ========================
+.idea/
+.vscode/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment
+# ========================
+.env
+.env.*
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Coverage
+# ========================
+coverage/
+
+
